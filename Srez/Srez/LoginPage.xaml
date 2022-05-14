@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Srez.LoginPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Margin="50">
+            <Entry Placeholder="Введите логин" x:Name="entryLogin"/>
+            <Entry IsPassword="True" Placeholder="Пароль" x:Name="entryPassword"/>
+            <Button Text="Войти" Clicked="Button_Clicked_1"/>
+            <Button Text="Зарегистрироваться" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
